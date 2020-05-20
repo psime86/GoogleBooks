@@ -25,7 +25,7 @@ class Search extends Component {
             .then(res => {
                 
                 // Take the response from Google Api search and use it to setState "books" array.
-                this.setState({ books: res.items, headerMessage: "Click 'View' to view on 'Google-Books' and 'Save' to add a book to 'Saved Books' page" })
+                this.setState({ books: res.items, headerMessage: "Click 'View' to view Books and 'Save' to add a book to 'Saved Books'" })
                 
             });
     }

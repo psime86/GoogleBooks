@@ -8,7 +8,7 @@ export default {
     getBooksFromGoogle: function(searchTerm) {
 
         // Define the api key and api URL
-        const key=process.env.GOOGLE_BOOKS_API;
+        let key=process.env.GOOGLE_BOOKS_API;
        
         const apiURL = "https://www.googleapis.com/books/v1/volumes?q=" + searchTerm + "&=" + key + ""
 

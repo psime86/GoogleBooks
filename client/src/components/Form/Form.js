@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Form(props) {
+function Form(props){    
     return (
         <div className="card m-4 formCard">
 
